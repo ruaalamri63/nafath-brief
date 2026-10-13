@@ -20,10 +20,18 @@ The app should show saved information When offline, save notes on the device, an
 Resource: What is Offline-First Data Synchronization? - https://www.back4app.com/glossary/offline-first-data-sync
 
 ## Networking
+5G network slicing creates virtual networks on shared infrastructure, each designed for different needs. An emergency slice can prioritize responders and support low delay, suitable speeds, and reliable connections during congestion. It should cover the radio, transport, and core networks, with monitoring and backups that can take over during failures. A slice alone does not protect against physical outages.
+
+Resource: Network slicing - https://www.ericsson.com/en/network-slicing
 
 ## Cybersecurity
+NIST’s incident response lifecycle focuses on Detect, Respond, and Recover, supported by preparation and ongoing improvement. Preparation sets clear roles, protections, and recovery plans. Detect finds and checks signs of attacks. Respond investigates, isolates affected systems, removes threats, and keeps teams informed while protecting emergency communications. Recover restores services and checks they work correctly. Lessons from every stage help improve security and procedures.
 
+Resource: NIST Incident Response Life Cycle Explained - https://cynomi.com/nist/nist-incident-response-life-cycle-explained/
 ## Data
+A star schema links a fact table directly to dimension tables. A snowflake schema splits dimension data into smaller tables, reducing repeated information but making queries more complex. For daily regional reports, I would choose a star schema with one row per region per day, linked to Date and Region tables. This makes filtering and adding session counts and data volumes across regions and days easier.
+
+Resource: Star Schema vs Snowflake Schema: Differences & Use Cases - https://cynomi.com/nist/nist-incident-response-life-cycle-explained/
 
 ## Misconception in My Track
 
